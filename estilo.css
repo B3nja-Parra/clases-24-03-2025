@@ -19,18 +19,18 @@ main{
 
 header{
     text-align: center;
-    color: rgb(255, 225, 0);
+    color: rgb(4, 54, 119);
     padding:  20px 0;
     border-radius: 8px 8px 0 0;
-    background-image: url(./imagenes/elden.png);
+    background-image: url(./imagenes/fondo\ ayato.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 header figure img{
-    border-radius: 50%;
-    border: 5px solid rgba(0, 238, 255, 0.744);
+    border-radius: 10%;
+    border: 1px solid rgba(0, 0, 0, 0.744);
     box-shadow: 0px 0px 10px ;
 }
 
@@ -45,7 +45,7 @@ header h2{
 }
 
 .container{
-    background-color: rgb(107, 106, 106);
+    background-color: rgb(50, 103, 173);
     width: 80%;
     margin: 0 auto;
     position: relative;
@@ -59,9 +59,9 @@ header h2{
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
-    border: 7px solid #29e100;
+    border: 7px solid #ffffff;
     margin: 5%;
-    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
 
 .contenedor_foto_perfil img{
@@ -78,17 +78,17 @@ header h2{
     display: inline-block;
     vertical-align: middle;
     margin-left: 1%;
-    text-shadow: 1px 4px 0px rgb(255, 0, 0);
+    text-shadow: 1px 4px 0px rgb(129, 129, 129);
 }
 
 h3{
     font-size: 1.4em;
     margin-top: 20px;
-    color: rgba(17, 126, 115, 0.1)
+    color: rgba(0, 52, 163, 0.671)
 }
 
 section{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -98,7 +98,7 @@ section{
 section hr{
     border: 0;
     height: 2px;
-    background: #0ebaba;
+    background: #0400fffa;
     margin: 10px 0;
 }
 
@@ -115,15 +115,23 @@ address p{
 }
 
 address a{
-    color: aqua;
+    color: rgb(12, 227, 255);
     text-decoration: none;
 }
 
 i{
-    color: aqua;
+    color: rgba(0, 26, 255, 0.753);
     margin-right:  8px;
 }
 
 article{
     margin-bottom: 15px;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.63);
+}
+
+h4{
+    color: #080808;
 }
